@@ -1,0 +1,24 @@
+# Obsidian workspace（端末依存・壊れやすい）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# キャッシュ・一時ファイル
+.obsidian/cache
+.obsidian/cache/**
+
+# プラグインの状態ファイル（再生成される）
+.obsidian/plugins/**/data.json
+
+# 個人情報を含む可能性のある設定
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+
+# OS依存ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ・ツール系
+.idea/
+.vscode/
