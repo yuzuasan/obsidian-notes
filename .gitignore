@@ -22,3 +22,6 @@ Thumbs.db
 # エディタ・ツール系
 .idea/
 .vscode/
+
+# ローカル用フォルダ
+_local/
