@@ -1,145 +1,185 @@
-2026/03/28
+2026/07/07
 
-ITエンジニアが日常的に使うサービスやツールは、役割ごとに整理するとかなり分かりやすくなります。代表的なものをカテゴリ別にまとめます👇
+ITエンジニアが使うツールは、担当分野（Web開発、インフラ、AI、モバイルなど）によって異なりますが、多くのエンジニアが共通して使うものがあります。代表的なものをカテゴリごとに紹介します。
 
----
+## 1. コードを書くツール（エディタ・IDE）
 
-# 🧑‍💻 開発・コーディング系
-
-### ■ エディタ / IDE
+最もよく使われる開発環境です。
 
 * Visual Studio Code
-* IntelliJ IDEA
-* PyCharm
-* Vim / Emacs
 
-👉 コードを書く中心ツール。VS Codeが特に人気。
+  * 無料で軽量
+  * 拡張機能が豊富
+  * 現在最も人気のあるエディタの一つ
+
+* IntelliJ IDEA
+
+  * Java・Kotlin開発で人気
+
+* PyCharm
+
+  * Python開発向け
+
+* Visual Studio
+
+  * C#や.NET開発向け
 
 ---
 
-# 🌐 バージョン管理・ソース管理
+## 2. バージョン管理
+
+ソースコードを管理するための必須ツールです。
 
 * Git
-* GitHub
-* GitLab
-* Bitbucket
 
-👉 チーム開発には必須。Pull Request（PR）でレビュー。
+  * ほぼ全ての開発現場で利用
 
----
+サービス例
 
-# ☁️ クラウド・インフラ
+* [GitHub](https://github.com?utm_source=chatgpt.com)
 
-* Amazon Web Services
-* Google Cloud Platform
-* Microsoft Azure
+  * 世界最大級のコード共有サービス
 
-👉 サーバーを持たずにサービス構築できる時代の基盤。
+* [GitLab](https://gitlab.com?utm_source=chatgpt.com)
 
----
+  * CI/CD機能も充実
 
-# 🐳 コンテナ・仮想化
+* [Bitbucket](https://bitbucket.org?utm_source=chatgpt.com)
 
-* Docker
-* Kubernetes
-
-👉 環境差異をなくすためにほぼ必須。
+  * Atlassian製
 
 ---
 
-# 🔧 CI/CD・自動化
+## 3. タスク管理
 
-* GitHub Actions
-* Jenkins
-* CircleCI
+チーム開発では欠かせません。
 
-👉 テスト・デプロイを自動化。
+* [Jira](https://www.atlassian.com/software/jira?utm_source=chatgpt.com)
+
+  * 開発チームで非常によく利用される
+
+* [Trello](https://trello.com?utm_source=chatgpt.com)
+
+  * シンプルなカンバン方式
+
+* [Asana](https://asana.com?utm_source=chatgpt.com)
+
+  * プロジェクト管理
 
 ---
 
-# 🗄️ データベース
+## 4. コミュニケーション
+
+チームでの連絡や会議に使います。
+
+* [Slack](https://slack.com?utm_source=chatgpt.com)
+* [Microsoft Teams](https://www.microsoft.com/microsoft-teams?utm_source=chatgpt.com)
+* [Discord](https://discord.com?utm_source=chatgpt.com)
+* [Zoom](https://zoom.us?utm_source=chatgpt.com)
+
+---
+
+## 5. クラウドサービス
+
+現在のシステム開発では非常に重要です。
+
+* [Amazon Web Services (AWS)](https://aws.amazon.com?utm_source=chatgpt.com)
+* [Microsoft Azure](https://azure.microsoft.com?utm_source=chatgpt.com)
+* [Google Cloud](https://cloud.google.com?utm_source=chatgpt.com)
+
+利用例
+
+* サーバー構築
+* データベース
+* AIサービス
+* ストレージ
+* ネットワーク
+
+---
+
+## 6. データベース
+
+データ保存に利用します。
 
 * MySQL
 * PostgreSQL
+* SQLite
 * MongoDB
-* Redis
-
-👉 バックエンド開発では必須。
 
 ---
 
-# 🧪 API・テストツール
+## 7. コンテナ・仮想化
 
-* Postman
-* Insomnia
+開発環境を統一できます。
 
-👉 APIの確認・デバッグに使う。
-
----
-
-# 📊 監視・ログ
-
-* Datadog
-* New Relic
-* Grafana
-* Prometheus
-
-👉 障害検知・パフォーマンス分析。
+* [Docker](https://www.docker.com?utm_source=chatgpt.com)
+* [Kubernetes](https://kubernetes.io?utm_source=chatgpt.com)
 
 ---
 
-# 💬 コミュニケーション
+## 8. CI/CD
 
-* Slack
-* Microsoft Teams
-* Discord
+テストやデプロイを自動化します。
 
-👉 チーム開発では超重要。
-
----
-
-# 📋 タスク・プロジェクト管理
-
-* Jira
-* Trello
-* Notion
-
-👉 チケット管理・仕様整理に使う。
+* [GitHub Actions](https://github.com/features/actions?utm_source=chatgpt.com)
+* [Jenkins](https://www.jenkins.io?utm_source=chatgpt.com)
+* [CircleCI](https://circleci.com?utm_source=chatgpt.com)
 
 ---
 
-# 📚 ナレッジ・調査
+## 9. APIテスト
 
-* Stack Overflow
-* Qiita
-* Zenn
+APIの動作確認に使います。
 
-👉 「エラーで詰まったら検索」は日常。
-
----
-
-# 🔐 セキュリティ・認証
-
-* Auth0
-* Firebase Authentication
+* [Postman](https://www.postman.com?utm_source=chatgpt.com)
+* [Insomnia](https://insomnia.rest?utm_source=chatgpt.com)
 
 ---
 
-# 💡 その他よく使うもの
+## 10. AI支援ツール
 
-* Figma（UI設計）
-* Google Chrome（デバッグ必須）
-* TablePlus
+近年、多くのエンジニアが活用しています。
+
+* [ChatGPT](https://chatgpt.com?utm_source=chatgpt.com)
+
+  * コード生成
+  * バグ調査
+  * 設計相談
+  * ドキュメント作成
+
+* [GitHub Copilot](https://github.com/features/copilot?utm_source=chatgpt.com)
+
+  * エディタ内でコード補完
+
+* [Claude](https://claude.ai?utm_source=chatgpt.com)
+
+  * 長文コードや設計レビューが得意
+
+* [Gemini](https://gemini.google.com?utm_source=chatgpt.com)
+
+  * Google製AIアシスタント
 
 ---
 
-# 🎯 まとめ
+## 11. ドキュメント管理
 
-ITエンジニアのツールは大きく分けると：
+設計書やナレッジ共有に利用します。
 
-* コードを書く → IDE
-* 管理する → Git
-* 動かす → クラウド・Docker
-* 自動化 → CI/CD
-* 監視する → ログ・監視
-* 連携する → Slack・Jira
+* [Notion](https://www.notion.so?utm_source=chatgpt.com)
+* [Confluence](https://www.atlassian.com/software/confluence?utm_source=chatgpt.com)
+* [Google Docs](https://docs.google.com?utm_source=chatgpt.com)
+
+---
+
+## 初心者におすすめの組み合わせ
+
+これからプログラミングやWeb開発を始めるなら、まずは次の組み合わせがおすすめです。
+
+* エディタ：Visual Studio Code
+* バージョン管理：Git ＋ [GitHub](https://github.com?utm_source=chatgpt.com)
+* APIテスト：[Postman](https://www.postman.com?utm_source=chatgpt.com)
+* コンテナ：[Docker](https://www.docker.com?utm_source=chatgpt.com)
+* クラウド：[AWS](https://aws.amazon.com?utm_source=chatgpt.com)（基礎から学習）
+* AI：[ChatGPT](https://chatgpt.com?utm_source=chatgpt.com) または [GitHub Copilot](https://github.com/features/copilot?utm_source=chatgpt.com)
+
+これらを身につけておくと、多くの開発現場で役立つ基礎スキルになります。
